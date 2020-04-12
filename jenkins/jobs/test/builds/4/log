@@ -1,0 +1,10 @@
+Started by user [8mha:////4KmV6eCiVkc7s8ncr0X5Lkga6rYFsDavMRO5gVmEswIKAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/test
+[test] $ /bin/sh -xe /tmp/jenkins1994332170311491680.sh
++ echo 4
+4
++ echo /usr/local/openjdk-8
+/usr/local/openjdk-8
+Triggering a new build of [8mha:////4DhqNt8DyRSfKk55ROdTnFk4CANhHtuLXsVDjOTDkRwuAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/az8JP2S1OISI30AVRdu7MAAAAA=[0mtest2
+Finished: SUCCESS
