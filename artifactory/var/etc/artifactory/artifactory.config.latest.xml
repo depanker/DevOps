@@ -3,15 +3,12 @@
     <offlineMode>false</offlineMode>
     <helpLinksEnabled>true</helpLinksEnabled>
     <fileUploadMaxSizeMb>100</fileUploadMaxSizeMb>
-    <revision>2</revision>
+    <revision>1</revision>
     <dateFormat>dd-MM-yy HH:mm:ss z</dateFormat>
     <addons>
         <showAddonsInfo>true</showAddonsInfo>
-        <showAddonsInfoCookie>1586614530091</showAddonsInfoCookie>
+        <showAddonsInfoCookie>1586766869811</showAddonsInfoCookie>
     </addons>
-    <bintrayConfig>
-        <fileUploadLimit>0</fileUploadLimit>
-    </bintrayConfig>
     <security>
         <anonAccessEnabled>false</anonAccessEnabled>
         <hideUnauthorizedResources>false</hideUnauthorizedResources>
@@ -71,6 +68,29 @@
             <key>artifactory-build-info</key>
             <type>buildinfo</type>
             <description>Build Info repository</description>
+            <includesPattern>**/*</includesPattern>
+            <repoLayoutRef>simple-default</repoLayoutRef>
+            <dockerApiVersion>V2</dockerApiVersion>
+            <forceNugetAuthentication>false</forceNugetAuthentication>
+            <blackedOut>false</blackedOut>
+            <handleReleases>true</handleReleases>
+            <handleSnapshots>true</handleSnapshots>
+            <maxUniqueSnapshots>0</maxUniqueSnapshots>
+            <maxUniqueTags>0</maxUniqueTags>
+            <blockPushingSchema1>true</blockPushingSchema1>
+            <suppressPomConsistencyChecks>true</suppressPomConsistencyChecks>
+            <propertySets/>
+            <archiveBrowsingEnabled>false</archiveBrowsingEnabled>
+            <snapshotVersionBehavior>unique</snapshotVersionBehavior>
+            <localRepoChecksumPolicyType>client-checksums</localRepoChecksumPolicyType>
+            <calculateYumMetadata>false</calculateYumMetadata>
+            <yumRootDepth>0</yumRootDepth>
+            <debianTrivialLayout>false</debianTrivialLayout>
+            <enableFileListsIndexing>false</enableFileListsIndexing>
+        </localRepository>
+        <localRepository>
+            <key>generic-local</key>
+            <type>generic</type>
             <includesPattern>**/*</includesPattern>
             <repoLayoutRef>simple-default</repoLayoutRef>
             <dockerApiVersion>V2</dockerApiVersion>
@@ -494,7 +514,6 @@
     <proxies/>
     <reverseProxies/>
     <propertySets/>
-    <urlBase>http://localhost:8082</urlBase>
     <repoLayouts>
         <repoLayout>
             <name>maven-2-default</name>
@@ -618,11 +637,6 @@
     <virtualCacheCleanupConfig>
         <cronExp>0 12 0 * * ?</cronExp>
     </virtualCacheCleanupConfig>
-    <systemMessageConfig>
-        <enabled>false</enabled>
-        <titleColor>#429f46</titleColor>
-        <showOnAllPages>false</showOnAllPages>
-    </systemMessageConfig>
     <folderDownloadConfig>
         <enabled>false</enabled>
         <enabledForAnonymous>false</enabledForAnonymous>
